@@ -15,6 +15,7 @@ public class Main {
         System.out.println("Ученики, вот новые задачи от учителя! Каждому по 1 задаче!");
         for (Task t: examples) {
             System.out.println(t.getFirst() + "*" + t.getLast());
+            System.out.println("так-с, а вот и следующее задание:");
         }
     }
 }
